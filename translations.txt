@@ -1,0 +1,50 @@
+Uses of Modals
+
+কোনো কাজ করতে হয় বোঝাতে
+
+str: Sub + am to/is to/are to + V1 + obj + adv + ext
+
+সামিকে রদিতকে বাঁচাতে মাঝেমাঝে মিথ্যা বলতে হয়।
+= Sometimes, Sami is to tell a lie to save Radit.
+
+ক্রিয়াকে--
+  কে বা কাকে দ্বারা প্রশ্ন করলে obj পাওয়া যায়।
+  কখন / কোথায় / কীভাবে / কেমন / কেন দ্বারা প্রশ্ন করলে adv পাওয়া যায়।
+
+ক্রিয়া + তে = to + V1
+  
+আমাকে প্রতিদিন পড়ালেখা করতে হয়।
+= I am to study daily.
+আমাদেরকে আমাদের লোকদের সচেতন করতে হয়।
+= We are to make our people consious.
+
+
+
+Was to/ Were to
+কোনো কাজ করতে হয়েছিলো বোঝাতে।
+str: sub + was to/were to + V1 + obj + adv + ext.
+
+লোকটাকে পালাতে হয়েছিলো।
+= The person was to flee away.
+আমাকে বিষয়টা মেনে নিতে হয়েছিলো।
+= I was to acquiese the metter.
+
+
+Have to / Has to
+কোনো কাজ করতে হবে।
+str: sub + have to/has to + V1 + obj + adv + ext.
+
+একদিন আমাদেরকে এই পৃথিবী ছেড়ে চলে যেতে হবে।
+= Oneday, we have to leave this earth.
+তাকে ফিরে আসতে হবে।
+= She has to come back.
+
+
+Had to
+কোনো কাজ করতে হতো
+str: sub + had to + V1 + obj + adv + ext.
+
+তাকে দৈনিক আট ঘণ্টা কাজ করতে হয়।
+= He had to work eight hours everyday.
+আমাকে মাঝেমাঝে উপস থাকতে হয়।
+= Sometimes, I had to starve.

@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Ferdous English Aid || Born to learn</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="icon" href="clr-logo.jpg">
+    <style>
+      body {
+        color: rgb(58, 57, 57);
+      }
+      table, th, td {
+        border: 1px solid rgb(211, 208, 208);
+        border-collapse: collapse;
+      }
+      .innertable {
+        min-width: 100%;
+        width: 100%;
+        max-width: 100%;
+      }
+      .examples {
+        border: 2px solid rgb(211, 208, 208);
+        border-collapse: collapse;
+      }
+      .parent-inner {padding:0;}
+      #finite, #non-finite, #compound, #complex, #simple, #rule1, #rule2, #rule3, #rule4, #rule5, #rule6, #rule7, #rule8, #rule9, #rule10, #rule11 {
+        padding-top: 30px;
+        padding-bottom: 0;
+      }
+      
+    </style>
+	</head>
+<body>
+
+  <!--
+  <div id="prank">
+    <h1>Enter your name to continue</h1>
+      <input type="text" class="user-name" placeholder="Enter your name" required id="onlyform"><br><br>
+      <button onclick="finishPrank()" class="user-name">Submit</button>
+  </div>  
+  -->
+  
+
+  <header class="name-fixed">
+    <ul id="res-list">
+      <li><a href="index.html">
+        <img src="logo.png" alt="Ferdous English Aid" id="logo">
+      </a></li>
+      
+      <li><button id="show" onclick="show()"><img src="menu.png" alt="menu"></button></li>
+      <li><button id="hide" onclick="hide()"><img src="close.png" alt="close"></button></li>
+      <li id="top-credit">Designed By Safayet Shahriar Sumve</li>
+    </ul>
+  </header>
+
+  <div id="res-navbar">
+		<ul id="res-index">
+			<li><a href="#finite">Finite Verbs</a></li>
+			<li><a href="#non-finite">Non-Finite Verbs</a></li>
+			<li><a href="#compound">Compound</a></li>
+			<li><a href="#complex">Complex</a></li>
+			<li><a href="#simple">Simple</a></li>
+			<li><a href="#rule1">Rule-1</a></li>
+			<li><a href="#rule2">Rule-2</a></li>
+			<li><a href="#rule3">Rule-3</a></li>
+			<li><a href="#rule4">Rule-4</a></li>
+			<li><a href="#rule5">Rule-5</a></li>
+			<li><a href="#rule6">Rule-6</a></li>
+			<li><a href="#rule7">Rule-7</a></li>
+			<li><a href="#rule8">Rule-8</a></li>
+			<li><a href="#rule9">Rule-9</a></li>
+			<li><a href="#rule10">Rule-10</a></li>
+			<li><a href="#name">Credits</a></li>
+		</ul>
+	</div>
+  
+  
+	<div id="navbar">
+		<ul id="index">
+			<li><a href="#finite">Finite Verbs</a></li>
+			<li><a href="#non-finite">Non-Finite Verbs</a></li>
+			<li><a href="#compound">Compound</a></li>
+			<li><a href="#complex">Complex</a></li>
+			<li><a href="#simple">Simple</a></li>
+			<li><a href="#rule1">Rule-1</a></li>
+			<li><a href="#rule2">Rule-2</a></li>
+			<li><a href="#rule3">Rule-3</a></li>
+			<li><a href="#rule4">Rule-4</a></li>
+			<li><a href="#rule5">Rule-5</a></li>
+			<li><a href="#rule6">Rule-6</a></li>
+			<li><a href="#rule7">Rule-7</a></li>
+			<li><a href="#rule8">Rule-8</a></li>
+			<li><a href="#rule9">Rule-9</a></li>
+			<li><a href="#rule10">Rule-10</a></li>
+			<li><a href="#name">Credits</a></li>
+		</ul>
+	</div>
+
+  <div id="main">
+    <main class="container">
+      <h1 align="center" id="title-h">Simple, Complex and Compound</h1>
+      <div class="verb">
+        <header id="finite"><h3>Finite(সমাপিকা)</h3></header>
+        <ol>
+          <li>12টা tense এর verb এর structure.</li>
+          <li>Passive এর verb এর structure.</li>
+          <li>Modal + V<sub>1</sub>.</li>
+          <li>Modal + be + V<sub>3</sub>.</li>
+        </ol>
+        <header id="non-finite"><h3>Non-Finite(অসমাপিকা)</h3></header>
+          <ol>
+              <li>শুধু V + ing.</li>
+              <li>শুধু V<sub>3</sub>.</li>
+              <li>Having + V<sub>3</sub>.</li>
+              <li>To + V<sub>1</sub>.</li>
+          </ol>
+          <p><strong>Example: </strong>Seeing(N.F) means(F) believing(N.F).</p>
+        <header id="compound"><h3>Compound</h3></header>
+        <ol>
+          <li>২টা finite verb থাকবে.</li>
+          <li>FANBOYS</li>
+            <ul>
+              <li>F = For</li>
+              <li>A = And</li>
+              <li>N = Nor</li>
+              <li>B = But</li>
+              <li>O = Or</li>
+              <li>Y = Yet</li>
+              <li>S = So</li>
+            </ul>
+        </ol>
+  
+        <header id="complex"><h3>Complex</h3></header>
+        <ol>
+            <li>২টা finite verb থাকবে.</li>
+            <li><dl><dt>Clause Maker</dt><dd>as, since, though, although, if, unless, that, in order that, so that, so..that, till, untill, W/H.</dd></dl></li>
+          </ol>
+          <header id="simple"><h3>Simple</h3></header>
+          <ol>
+            <li>১টা finite verb থাকবে.</li>
+          </ol>
+      </div>
+        <hr>
+      <div id="rules">
+        <header id="rule1"><h3>Rule-1: একই sub এর ক্ষেত্রে</h3></header>
+        <div class="rules">
+          <table>
+            <tr>
+              <th>cd:</th>
+              <td>S<sub>1</sub> + v +</td>
+              <td class="middle">and</td>
+              <td>+ S<sub>1</sub> + v + ext</td>
+            </tr>
+            <tr>
+              <th>cx:</th>
+              <td>When/As/Since + S<sub>1</sub> + v +</td>
+              <td class="middle">,</td>
+              <td>+ S<sub>1</sub> + v + ext</td>
+            </tr>
+            <tr>
+              <th rowspan="3">sim:</th>
+              <td>V + ing + ext</td>
+              <td class="middle" rowspan="3">,</td>
+              <td rowspan="3">+ S<sub>1</sub> + v + ext</td>
+            </tr>
+            <tr>
+              <td>Because of/At the time of + v+ing/noun + ext +</td>
+            </tr>
+            <tr>
+              <td>Because of/At the time of + S<sub>1</sub> এর Possasive + v+ing/noun + ext +</td>
+            </tr>
+          </table>
+          <!-- ========= examples below =========== -->
+          <table>
+            <tr class="examples">
+              <th class="number">Example-1</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">He was ill and he could not attend the class.</td>
+                  </tr>
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">As he was ill, he could not attend the class</td>
+                  </tr>
+                  <tr>
+                    <th rowspan="3">sim:</th>
+                    <td class="example">Being ill, he could not attend the class</td>
+                  </tr>
+                  <tr>
+                    <td>Because of being ill, he could not attend the class</td>
+                  </tr>
+                  <tr>
+                    <td>Because of his illness, he could not attend the class</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="examples">
+              <th class="number">Example-2</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">Since he studied hard, he cut a good figure.</td>
+                  </tr>
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">He studied had and cut a good result</td>
+                  </tr>
+                  <tr>
+                    <th rowspan="3">sim:</th>
+                    <td class="example">Because of studing hard, he cut a good result.</td>
+                  </tr>
+                </table>
+              </td>  
+            </tr>
+            <tr class="examples">
+              <th class="number">Example-3</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>sim:</th>
+                    <td class="example">Because of my being late, I was punished.</td>
+                  </tr>
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">I was late and I was punished.</td>
+                  </tr>
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">As I was late, I was punished.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="examples">
+              <th class="number">Example-4</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>sim:</th>
+                    <td class="example">At the time of reaching there, I was cordially accepted.</td>
+                  </tr>
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">I reached there and I was cordially accepted.</td>
+                  </tr>
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">When I reached there, I was cordially accepted.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+                
+  
+        <header id="rule2"><h3>Rule-2: আলাদা sub এর ক্ষেত্রে</h3></header>
+        <div class="rules">
+          <table>
+            <tr>
+              <th>cd:</th>
+              <td>S<sub>1</sub> + v + ext +</td>
+              <td class="middle">and</td>
+              <td>+ S<sub>2</sub> + v + ext</td>
+            </tr>
+            <tr>
+              <th>cx:</th>
+              <td>When/As/Since + S<sub>1</sub> + v + ext + </td>
+              <td class="middle">,</td>
+              <td>+ S<sub>2</sub> + v + ext</td>
+            </tr>
+            <tr>
+              <th>sim:</th>
+              <td>Because of/At the time of + S<sub>1</sub> এর Possasive + v+ing/noun + ext +</td>
+              <td class="middle">,</td>
+              <td>+ S<sub>2</sub> + v + ext</td>
+            </tr>
+          </table>
+          <table>
+            <tr class="examples">
+              <th class="number">Example-1</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">The rain stopped and we started for college.</td>
+                  </tr>
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">When the rain stopped, we started for college. </td>
+                  </tr>
+                  <tr>
+                    <th>sim:</th>
+                    <td class="example">At the time of (stopping the rain / the rain stopping), we started for college.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="examples">
+              <th class="number">Example-2</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">Mohshin was saying prayer and a thief broke into his room.</td>
+                  </tr>
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">When Mohshin was saying his prayer, a thief broke into his room.</td>
+                  </tr>
+                  <tr>
+                    <th>sim:</th>
+                    <td class="example">At the time of Mohshin saying his prayer, a thief broke into his room.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="examples">
+              <th class="number">Example-3</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">When I woke up, he went away.</td>
+                  </tr>
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">I woke up and he went away.</td>
+                  </tr>
+                  <tr>
+                    <th>sim:</th>
+                    <td class="example">At the time of my waking up, he went away.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+                
+        <header id="rule3"><h3>Rule-3:</h3></header>
+        <div class="rules">
+          <table>
+            <tr>
+              <th>cd:</th>
+              <td>S + v + ext +</td>
+              <td class="middle">and</td>
+              <td>+ S + want to/wanted to + v<sub>1</sub> + ext</td>
+            </tr>
+            <tr>
+              <th>cx:</th>
+              <td>S + v + ext +</td>
+              <td class="middle">so that/in order that</td>
+              <td>+ S + can/could + v<sub>1</sub> + ext</td>
+            </tr>
+            <tr>
+              <th>sim:</th>
+              <td>S + v + ext +</td>
+              <td class="middle">to/in order to</td>
+              <td>+  v<sub>1</sub> + ext</td>
+            </tr>
+          </table>
+          <p><b>Note:</b> with a view to, look forward to, come forward to, <b>or</b> with an eye to <b>can replace <i>"in order to"</i> in a simple sentence.</b></p>
+          
+          <table>
+            <tr class="examples">
+              <th class="number">Example-1</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>sim:</th>
+                    <td class="example">Firoza took a loan to start a new business.</td>
+                  </tr>
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">Firoza took a loan and she wanted to start a new business.</td>
+                  </tr>
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">Firoza took a loan so that she could start a new business.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="examples">
+              <th class="number">Example-2</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>sim:</th>
+                    <td class="example">Rajoni studies regularly with a view to getting A+.</td>
+                  </tr>
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">Rajoni studies regularly and she wants to get A+.</td>
+                  </tr>
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">Rajoni studies regularly so that she can get A+.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr class="examples">
+              <th class="number">Example-3</th>
+              <td class="parent-inner">
+                <table class="innertable">
+                  <tr>
+                    <th>sim:</th>
+                    <td class="example">To earn money, we have to work hard.</td>
+                  </tr>
+                  <tr>
+                    <th>cx:</th>
+                    <td class="example">We have to work hard so that we can earn money.</td>
+                  </tr>
+                  <tr>
+                    <th>cd:</th>
+                    <td class="example">We want to earn money and we have to work hard.</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </div>
+                
+        <header id="rule4"><h3>Rule-4:</h3></header>
+          <div class="rules">
+            <table>
+              <tr>
+                <th>cd:</th>
+                <td>Imperative Sentence +</td>
+                <td class="middle">and</td>
+                <td>s + v + ext</td>
+              </tr>
+              <tr>
+                <th>cx:</th>
+                <td>If + S + v + ext +</td>
+                <td class="middle">,</td>
+                <td>s + v + ext</td>
+              </tr>
+              <tr>
+                <th>sim:</th>
+                <td>By + v + ing + ext + </td>
+                <td class="middle">,</td>
+                <td>s + v + ext</td>
+              </tr>
+            </table>
+            <table>
+              <tr class="examples">
+                <th class="number">Example-1</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Work hard and you will shine in life.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">If you work hard, you will shine in life.</td>
+                    </tr>
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">By working hard, you will shine in life.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-2</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">By taking balanced diet, we can lead a healthy life.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Let us take balanced diet and we can lead a healthy life.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">If we take balanced diet, we can lead a healthy life.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-3</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">By reading books, you can enrich your knowledge.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Read book and you can enrich your knowledge.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">If you read books, you can enrich your knowledge.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+                
+  
+        <header id="rule5"><h3>Rule-5:</h3></header>
+          <div class="rules">
+            <table>
+              <tr>
+                <th>cd:</th>
+                <td>Imperative Sentence +</td>
+                <td class="middle">or</td>
+                <td>s + v + ext</td>
+              </tr>
+              <tr>
+                <th rowspan="2">cx:</th>
+                <td>Unless + S + v + ext +</td>
+                <td class="middle" rowspan="2">,</td>
+                <td rowspan="2">s + v + ext</td>
+              </tr>
+              <tr>
+                <td>If + S + aux verb + not + main verb + ext +</td>
+              </tr>
+              <tr>
+                <th rowspan="2">sim:</th>
+                <td>Without + v + ing + ext +</td>
+                <td class="middle" rowspan="2">,</td>
+                <td rowspan="2">s + v + ext</td>
+              </tr>
+              <tr>
+                <td>Without + noun +</td>
+              </tr>
+            </table>
+            <table>
+              <tr class="examples">
+                <th class="number">Example-1</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Without working hard, you can not reach your goal.</td>
+                    </tr>
+                    <tr>
+                      <th rowspan="2">cx:</th>
+                      <td class="example">Unless you work hard, you can not reach your goal.</td>
+                    </tr>
+                    <tr>
+                      <td class="example">If you do not work hard, you can not reach your goal.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Work hard or you can not reach your goal.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-2</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Without doing so, he will die.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">If he does not do so, he will die.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Let him do so or he will die.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-3</th>
+                <td class="parent-inner">
+                  <table class="innertable"> 
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Without computers, we can not know the advanced world.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Unless we have computer, we can not know the advanced world</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Let us have computer or we can not know the advanced world.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-4</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Without honesty, you can not reach your goal.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Unless you are honest, you can not reach your goal.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Be honest or you can not reach your goal.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <header id="rule6"><h3>Rule-6:</h3></header>
+          <div class="rules">
+            <table>
+              <tr>
+                <th>cd:</th>
+                <td>S + v + very + adj +</td>
+                <td class="middle">and</td>
+                <td>S + can/could + not + V<sub>1</sub> + ext</td>
+              </tr>
+              <tr>
+                <th>cx:</th>
+                <td>S + v + so + adj +</td>
+                <td class="middle">that</td>
+                <td>s + can/could + not + V<sub>1</sub> + ext</td>
+              </tr>
+              <tr>
+                <th>sim:</th>
+                <td>S + v + too + adj +</td>
+                <td class="middle">to</td>
+                <td>V<sub>1</sub> + ext</td>
+              </tr>
+            </table>
+            <table>
+              <tr class="examples">
+                <th class="number">Example-1</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">The man was too weak to work.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">The man was very weak and he could not work.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">The man was so weak that he could not work.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-2</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">The load is too heavy to carry.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">The load is very heavy and he could not carry it.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">The load was so heavy that he could not carry it.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <header id="rule7"><h3>Rule-7:</h3></header>
+          <div class="rules">
+            <table>
+              <tr>
+                <th>sim:</th>
+                <td colspan="2">S + see verb + obj</td>
+                <td>v + ing + ext</td>
+              </tr>
+              <tr>
+                <th rowspan="2">cx:</th>
+                <td>S + see verb +</td>
+                <td class="middle">that</td>
+                <td>obj এর sub + be verb + v + ing + ext</td>
+              </tr>
+              <tr>
+                <td>S + see verb + obj +</td>
+                <td class="middle">w/h</td>
+                <td>be verb + verb +ing</td>
+              </tr>
+              <tr>
+                <th>cd:</th>
+                <td>S + see verb + obj +</td>
+                <td class="middle">and</td>
+                <td>obj এর sub + be verb + v + ing + ext</td>
+              </tr>
+            </table>
+            <table>
+              <tr class="examples">
+                <th class="number">Example-1</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">I saw him playing football in the field.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">I saw him and he was playing football in the field.</td>
+                    </tr>
+                    <tr>
+                      <th rowspan="2">cx:</th>
+                      <td class="example">I saw him who was playing football in the field.</td>
+                    </tr>
+                    <tr>
+                      <td>I saw that he was playing football in the field.
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-2</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Opu saw a monkey which was jumping.</td>
+                    </tr>
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Opu saw a monkey jumping.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Opu saw a monkey and it was jumping.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <header id="rule8"><h3>Rule-8: একই sub এর ক্ষেত্রে</h3></header>
+          <div class="rules">
+            <table>
+              <tr>
+                <th>cd:</th>
+                <td>S + v + ext +</td>
+                <td class="middle">yet / but</td>
+                <td>S + v + ext</td>
+              </tr>
+              <tr>
+                <th>cx:</th>
+                <td>Though / Although + S + v + ext +</td>
+                <td class="middle">,</td>
+                <td>S + v + ext</td>
+              </tr>
+              <tr>
+                <th>sim:</th>
+                <td>Inspite of / Despite + (v + ing / noun) + ext</td>
+                <td class="middle">,</td>
+                <td>S + v + ext</td>
+              </tr>
+            </table>
+            <table>
+              <tr class="examples">
+                <th class="number">Example-1</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">I went there but could not meet him.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though I went there, I could not meet him.</td>
+                    </tr>
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of going there, I could not meet him.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-2</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of his honesty, he is hated by all.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though he is honest, he is hated by all.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">He is honest but he is hated by all.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-3</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">We started our journey early but we could not reach in time.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though we started our journey early, we could not reach in time.</td>
+                    </tr>
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of starting our journey early, we could not reach in time.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-4</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of being Hindu, he eats beef.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">He is Hindu but he eats beef.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though he is Hindu, he eats beef.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <header id="rule9"><h3>Rule-9: আলাদা sub এর ক্ষেত্রে</h3></header>
+          <div class="rules">
+            <table>
+              <tr>
+                <th>cd:</th>
+                <td>S<sub>1</sub> + v + ext +</td>
+                <td class="middle">yet / but</td>
+                <td>S<sub>2</sub> + v + ext +</td>
+              </tr>
+              <tr>
+                <th>cx:</th>
+                <td>Though / Although + S<sub>1</sub> + v + ext +</td>
+                <td class="middle">,</td>
+                <td>S<sub>2</sub> + v + ext +</td>
+              </tr>
+              <tr>
+                <th>sim:</th>
+                <td>Inspite of / Despite + S<sub>1</sub> এর Poss + (v + ing / noun) + ext +</td>
+                <td class="middle">,</td>
+                <td>S<sub>2</sub> + v + ext +</td>
+              </tr>
+            </table>
+            <table>
+              <tr class="examples">
+                <th class="number">Example-1</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though I went to his house, he did not meet me.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">I went to his house but he did not meet me.</td>
+                    </tr>
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of my going to his house, he did not meet me.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-2</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of his illness, we went on a study tour.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">He was ill but we went on a study tour.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though he was ill, we went on a study tour.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-3</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of the weather being cold, we went out.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">The weather was cold but we went out.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though the weather was cold, we went out.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-4</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of studying hard, Eti could not pass.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">Eti studied hard but she could not pass.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though Eti studied hard, she could not pass.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-5</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">I offered to help him but he did not take the opportunity.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">Though I offered to help him, he did not take the opportunity.</td>
+                    </tr>
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Inspite of my offering him to help, he did not take the opportunity.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <header id="rule10"><h3>Rule-10</h3></header>
+          <div class="rules">
+            <table>
+              <tr>
+                <th>sim:</th>
+                <td colspan="3">Adj + noun.</td>
+              </tr>
+              <tr>
+                <th>cx:</th>
+                <td>Adj বাদ রেখে noun পর্যন্ত যা আছে +</td>
+                <td class="middle">W/H</td>
+                <td>verb + adj + ext.</td>
+              </tr>
+              <tr>
+                <th>cd:</th>
+                <td>S + verb + adj +</td>
+                <td class="middle">and</td>
+                <td>S + verb + ext.</td>
+              </tr>
+            </table>
+            <table>
+              <tr class="examples">
+                <th class="number">Example-1</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">The poor people suffer much on a rainy day.</td>
+                    </tr>
+                    <tr>
+                      <th rowspan="2">cx:</th>
+                      <td class="example">The people who are poor suffer much on a rainy day.</td>
+                    </tr>
+                    <tr>
+                      <td>The people who suffer much on a rainy day are poor.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">The people are poor and they suffer much on a rainy day.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-2</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">Hard working people can shine in life.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">The people who work hard can shine in life.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">The people work hard and they can shine in life.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              <tr class="examples">
+                <th class="number">Example-3</th>
+                <td class="parent-inner">
+                  <table class="innertable">
+                    <tr>
+                      <th>sim:</th>
+                      <td class="example">They lead a miserable life.</td>
+                    </tr>
+                    <tr>
+                      <th>cx:</th>
+                      <td class="example">They lead a life which is miserable.</td>
+                    </tr>
+                    <tr>
+                      <th>cd:</th>
+                      <td class="example">They lead a life and it is miserable.</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <footer>
+            <h5 id="slogan" class="container">#খাতা কলমের দিন শেষ,<br>&nbsp;&nbsp;ডিজিটাল বাংলাদেশ।</h5><br>
+            <header id="name"><h3>Developed By <a href="mailto:sssumve@gmail.com" id="mail">Safayet Shahriar Sumve</a></h3></header>
+          </footer>
+        </div>
+    </main>
+  </div>
+
+  <script src="main.js"></script>
+  
+</body>
+</html>
