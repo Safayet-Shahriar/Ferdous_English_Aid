@@ -22,7 +22,7 @@ function hide() {
 function finishPrank() {
     if (form.value == "$$$umve-fea") {
         prank.style.display = "none";
-    } else {
-        alert("Please fill the form");
+    } else if (form.value != "") {
+        alert("Incorrect Password");
     }
 }
