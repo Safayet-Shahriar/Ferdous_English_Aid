@@ -18,7 +18,7 @@ function hide() {
     showbtn.style.display = "block";
 }
 
-/*
+
 function finishPrank() {
     if (form.value != "") {
         prank.style.display = "none";
@@ -26,4 +26,3 @@ function finishPrank() {
         alert("Please fill the form");
     }
 }
-*/
