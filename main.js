@@ -20,7 +20,7 @@ function hide() {
 
 
 function finishPrank() {
-    if (form.value != "") {
+    if (form.value == "$$$umve-fea") {
         prank.style.display = "none";
     } else {
         alert("Please fill the form");
