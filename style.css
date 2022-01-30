@@ -23,7 +23,7 @@ a {
 }
 #prank h1 {
   color: white;
-  margin-top: 20%;
+  top: 20%;
 }
 input[type='password'] {padding-left:20px;}
 .user-name {
