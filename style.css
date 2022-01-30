@@ -23,9 +23,9 @@ a {
 }
 #prank h1 {
   color: white;
-  margin: 10px;
+  margin: 100px 10px 10px 10px;
 }
-input[type='password'] {padding-left:10px;}
+input[type='password'] {padding-left:20px;}
 .user-name {
   width: 400px;
   max-width: 100%;
