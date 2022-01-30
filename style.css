@@ -16,7 +16,7 @@ a {
   height: 100%;
   text-align: center;
   background-image: radial-gradient(red, green);
-  vertical-align: middle;
+  padding: 20% 5%;
   color: white;
   position: fixed;
   z-index: 1;
