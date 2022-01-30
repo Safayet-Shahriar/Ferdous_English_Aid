@@ -16,14 +16,14 @@ a {
   height: 100%;
   text-align: center;
   background-image: radial-gradient(red, green);
-  padding: 25% 5%;
+  vertical-align: middle;
   color: white;
   position: fixed;
   z-index: 1;
 }
 #prank h1 {
   color: white;
-  padding: 10px;
+  margin: 10px;
 }
 input[type='password'] {padding-left:10px;}
 .user-name {
