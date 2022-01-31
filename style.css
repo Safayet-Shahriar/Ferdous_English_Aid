@@ -243,3 +243,14 @@ footer {
     font-size:15px;
   }
 }
+
+@media print {
+  #main {
+    width: 100%;
+    display:block;
+    margin:0;
+  }
+  html {
+    font-size:14px;
+  }
+}
