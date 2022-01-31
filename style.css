@@ -245,7 +245,7 @@ footer {
 }
 
 @media print {
-  #navbar, #res-navbar {display:block;}
+  #navbar, #res-navbar {display:none;}
   #main {
     width: 100%;
     display:block;
