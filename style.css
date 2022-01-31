@@ -245,6 +245,7 @@ footer {
 }
 
 @media print {
+  #navbar, #res-navbar {display:block;}
   #main {
     width: 100%;
     display:block;
