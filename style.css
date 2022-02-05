@@ -26,7 +26,7 @@ a {
   margin: 10px;
 }
 input[type='password'] {padding-left:20px;margin-top:10px;}
-button .user-name:hover {
+#submit-btn:hover {
   background-color: black;
   color: white;
 }
