@@ -70,15 +70,8 @@ body {
 }
 #hide {font-size:50px;font-weight: normal;}
 #show:hover, #hide:hover {background-color:whitesmoke;transition-duration: 0.3s;}
-#show img, #hide img {
-  padding: 0 0 4px 0;
-  margin:0;
-  height:25px;
-  width:23px;
-  vertical-align: center;
-}
 #hide {
-  display: none;
+  display: block;
 }
 #slogan {
   font-size: 15px;
