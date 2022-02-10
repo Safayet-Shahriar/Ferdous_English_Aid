@@ -57,8 +57,10 @@ body {
 #show, #hide {
   float: right;
   width:50px;
-  height:45px;
+  height:50px;
   border:none;
+  font-size: 25px;
+  font-weight: bold;
   outline: var(--border1);
   border-radius: 10px;
   background: none;
@@ -66,7 +68,8 @@ body {
   vertical-align: center;
   margin-top:2px;
 }
-#show:hover, #hide:hover {background-color:whitesmoke;}
+#hide {font-size:50px;font-weight: normal;}
+#show:hover, #hide:hover {background-color:whitesmoke;transition-duration: 0.3s;}
 #show img, #hide img {
   padding: 0 0 4px 0;
   margin:0;
@@ -116,7 +119,7 @@ body {
   padding: 0;
 }
 #nav-title {
-  font-family: 'MV Boli', 'Ink Free', 'Monotype Corsiva';
+  font-family: cursive;
   color:rgb(40, 193, 253);
   padding: 10px 20px;
 }
@@ -130,7 +133,7 @@ body {
 }
 #res-navbar a:hover {
   background-color:rgb(235, 246, 252);
-  transition-delay: 0.2s;
+  transition-duration: 0.3s;
 }
 
 #navbar {
@@ -156,7 +159,7 @@ body {
 }
 #navbar a:hover {
   background-color:rgb(235, 246, 252);
-  transition-delay: 0.2s;
+  transition-duration: 0.3s;
 }
 
 #title-h {
