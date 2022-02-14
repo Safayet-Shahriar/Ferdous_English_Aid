@@ -107,12 +107,11 @@ body {
   top:55px;
   left:0;
   z-index:1;
-  max-height: calc(100% - 200px);
-  height: auto;
+  transition:height 0.5s;
+  height: 0;
   overflow-y: auto;
-  display: none;
-  border-top: 2px solid black;
-  border-bottom: 1px solid black;
+  display: block;
+  border: none;
 }
 #res-index {
   display: block;
@@ -238,9 +237,7 @@ footer {
   .name-fixed {
     display:flow-root;
   }
-  #res-navbar {
-    display: none;
-  }
+
   #main {
     width: 100%;
     display:block;
