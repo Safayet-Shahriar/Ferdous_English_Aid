@@ -5,8 +5,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" src="C:\Users\Lenovo\OneDrive\Documents\bootstrap-5.0.2-dist\css\bootstrap.min.css">
-    <script src="C:\Users\Lenovo\OneDrive\Documents\bootstrap-5.0.2-dist\js\bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="icon" href="clr-logo.jpg">
     <style>
       body {
@@ -18,14 +18,19 @@
         border-collapse: collapse;
       }
       table {
-        max-width: 100% !important;
+        max-width: 70% !important;
       }
       div.example {
         margin-left: 20px;
       }
+      .border {border: 1px solid black;padding: 5px;}
       #top {margin-top: 15px;text-align: center;color:rgb(35, 71, 182);}
       #main {margin:0;}
-      #modals, #was-were2, #have-has2, #had2, #hadbat, #begoing2, #beabout2, #besup2 {padding-top: 37px;}
+      /*
+      #watermark {height: 100%; width: 50%;transform:rotate(-45deg);position: fixed;text-align: center;opacity: 0.3; z-index:-1;}
+      #watermark h1, #watermark h2 {color: red; vertical-align: middle;}
+      #watermark h1 {font-size: 60px;}
+      */
     </style>
 	</head>
 <body>
@@ -50,6 +55,13 @@
     </ul>
   </header>
   
+<!--
+  <div id="watermark">
+    <h1>Ferdous English Aid.</h1>
+    <h2>Rules of Tag Questions.</h2>
+  </div>
+-->
+  
 
   <div id="top">
     <img src="logo.png" alt="logo">
@@ -70,9 +82,11 @@
       <p><b>STR: </b>Auxiliary verb + n't(if needed) + pronoun + ?</p> 
 
 
-
-      <header id="neg-words"><h3>Negative Words</h3></header>
+      <div class="border">
+        <header id="neg-words"><h3>Negative Words</h3></header>
       no, not, nor, never, neither, few, little, very few, scarcely, saldom, hardly, no sooner etc.
+      </div>
+      
 
       <header id="short-forms"><h3>Short Forms:-</header>
       <table>
@@ -91,9 +105,84 @@
         </ol>
       </div>
 
+      <header id="uses-of-pro"><h2>Uses Of Pronoun</h2></header>
+      <ol>
+        <li>Sub যদি ব্যাক্তিবাচক হয়, তাহলে pronoun হবেঃ- he/she.</li>
+        <li>Sub যদি বস্তুবাচক হয়, তাহলে pronoun হবেঃ- it. যেমন-</li>
+        <div class="example">
+          <ol>
+            <li>One lie begets houndred lies, <u>doesn't it?</u></li>
+            <li>Fire burns everything, <u>don't it?</u></li>
+          </ol>
+        </div>
+        <li>বহুবচন Sub হলে, pronoun হবেঃ- they.</li>
+        <li>(To + V<sub>1</sub>) অথবা (V + ing) যদি Sub হয়, তাহলে pronoun হবেঃ- it. যেমন-</li>
+        <div class="example">Walking is a good exercise, <u>isn't it?</u></div>
+        <li>Sub যদি Baby/Child হয়, তাহলে pronoun হবেঃ- it. কিন্তু Children হলে pronoun হবে they.</li>
+        <li>Sub জন্তুবাচক বোঝালেও pronoun হবেঃ- it. যেমন-</li>
+        <div class="example">A barking dog saldom bites, <u>does it?</u></div>
+        <li>Body/one যদি Sub হয়, তবে pronoun হবেঃ- they. যেমন-</li>
+        <div class="example">
+          <ol>
+            <li>Everybody hardly loves a liar, <u>do they?</u></li>
+            <li>One can ahine in life, <u>don't they?</u></li>
+            <li>None can go a long way without education, <u>do they?</u></li>
+          </ol>
+        </div>
+        <li>Common noun যেমন- man, poet, doctor, police etc. যদি sub হয়, তাহলে pronoun হবেঃ- he/they. যেমন-</li>
+        <div class="example">The police ran after the thief, <u>didn't he?</u></div>
+        <li>সমস্ত শক্তির আধার ক্ষমতাধর বোঝালে, pronoun হবেঃ- he. যেমন-</li>
+        <div class="example">
+          <ol>
+            <li>Sun gives us light, <u>doesn't it?</u></li>
+            <li>Allah helps us in danger, <u>doesn't he?</u></li>
+          </ol>
+        </div>
+        <li>সুন্দর বা মায়ের জাত বোঝালে, pronoun হবেঃ- she. যেমন-</li>
+        <div class="example">Bangladesh is a beautiful country, <u>isn't she?</u></div>
+        <li>Moon, Rever, Ship, country, train, Earth যদি বাক্যের sub হয়, তাহলে pronoun হবেঃ- she. যেমন-</li>
+        <div class="example">
+          <ol>
+            <li>The Titanic was considerd unsinkable, <u>wasn't she?</u></li>
+            <li>Moon gives us light at night, <u>doesn't she?</u></li>
+          </ol>
+        </div>
+        <li>Something, anything, everything, nothing থাকলে pronoun হবেঃ- it. যেমন-</li>
+        <div class="example">Nothing is impossible for Allah, <u>is it?</u></div>
+        <li>every, all থাকলে, pronoun হবেঃ- they.</li>
+        <b>Note:</b>
+        <div class="example">all যদি ব্যাক্তিবাচক হয়, তাহলে pronoun হবে they.<br>all যদি বস্তুবাচক হয়, তাহলে pronoun হবে it. যেমন-</div>
+        <div class="example"><ol>
+          <li>All is well, <u>isn't it?</u></li>
+          <li>All are well, <u>aren't they?</u></li>
+          <li>Everymother loves her child, <u>don't they?</u></li>
+        </ol></div>
+        <li>Imperative Sentence থাকলে, Tag question হবেঃ- will you. যেমন-</li>
+        <div class="example">Have a cup of tea, <u>will you?</u></div>
+
+        <li>Let যুক্ত Sentence থাকলে, Tag question হবেঃ- will you. যেমন-</li>
+        <div class="example">Let me finish the work, <u>will you?</u></div>
+
+        <li>Let's/ let us যুক্ত Sentence থাকলে, Tag question হবেঃ- shall we. যেমন-</li>
+        <div class="example">Let's arrange a picnic, <u>shall we?</u></div>
+
+        <li>Interrogative / Exclamatory sentence যদি থাকে, তাহলে প্রথমে তার Assertive করে, পরে Tag Question বানাতে হবে। যেমন-</li>
+        <div class="example">
+          <ol>
+            <li>How odd! ___________<br><b>Assertive: </b>It is very odd.<br><b>Solution: </b>How odd! <u>isn't it?</u></li>
+            <li>Who believes a liar? ___________<br><b>Assertive: </b>None believes a liar.<br><b>Solution: </b>Who believes a liar? <u>do they?</u></li>
+          </ol>
+        </div>
+
+        <li>There + be verb + noun/pronoun + ext থাকলে, pronoun হবে there. যেমন-</li>
+        <div class="example">There is a mosque in our village, <u>isn't there?</u></div>
+
+        <li>There + main verb + noun/pronoun + ext থাকলে, pronoun হবে main verb এর পরের noun/pronoun. যেমন-</li>
+        <div class="example">There lived a king named Solomon, <u>didn't he?</u></div>
+      </ol>
+
       <footer>
-        <h5 id="slogan" class="container">#খাতা কলমের দিন শেষ,<br>&nbsp;&nbsp;ডিজিটাল বাংলাদেশ।</h5><br>
-        <header id="name"><h3>Developed By <a href="mailto:sssumve@gmail.com" id="mail">Safayet Shahriar Sumve</a></h3></header>
+        <header id="name"><h3>By <a href="mailto:sssumve@gmail.com" id="mail">Safayet Shahriar Sumve</a></h3></header>
       </footer>
     </main>
   </div>

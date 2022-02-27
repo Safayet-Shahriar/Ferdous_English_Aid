@@ -59,8 +59,6 @@ body {
   width:50px;
   height:50px;
   border:none;
-  font-size: 25px;
-  font-weight: bold;
   outline: var(--border1);
   border-radius: 10px;
   background: none;
@@ -68,7 +66,8 @@ body {
   vertical-align: center;
   margin-top:2px;
 }
-#hide {font-size:50px;font-weight: normal;}
+#show {font-size: 30px}
+#hide {font-size: 45px;}
 #show:hover, #hide:hover {background-color:whitesmoke;transition-duration: 0.3s;}
 #show img, #hide img {
   padding: 0 0 4px 0;
@@ -107,8 +106,9 @@ body {
   top:55px;
   left:0;
   z-index:1;
+  height: auto;
+  max-height: calc(100% - 200px);
   transition:height 0.5s;
-  height: 0;
   overflow-y: auto;
   display: block;
   border: none;

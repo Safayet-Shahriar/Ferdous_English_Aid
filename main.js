@@ -8,8 +8,6 @@ let form = document.getElementById("onlyform");
 
 function show() {
     showbtn.style.display = "none";
-    navbar.style.height = "auto";
-    navbar.style.maxHeight = "calc(100% - 200px)";
     navbar.style.borderTop = "2px solid black";
     navbar.style.borderBottom = "2px solid black";
     hidebtn.style.display = "block";
