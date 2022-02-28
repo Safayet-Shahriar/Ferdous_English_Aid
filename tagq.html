@@ -23,9 +23,11 @@
       div.example {
         margin-left: 20px;
       }
-      .border {border: 1px solid black;padding: 5px;}
+      .border {border: 1px solid black !important;padding: 5px;}
       #top {margin-top: 15px;text-align: center;color:rgb(35, 71, 182);}
       #main {margin:0;}
+      h1, h2, h4, h4:not('#neg'), h5, h6 {margin: 10px 0 10px 0;}
+      #neg-words {padding: 10px;}
       /*
       #watermark {height: 100%; width: 50%;transform:rotate(-45deg);position: fixed;text-align: center;opacity: 0.3; z-index:-1;}
       #watermark h1, #watermark h2 {color: red; vertical-align: middle;}
@@ -73,7 +75,7 @@
   <div id="main">
     <main class="container">
       <h1 align="center" id="title-h">Rules of Tag Questions</h1>
-      <header id="structure"><h3>Structure:-</h3></header>
+      <header id="structure"><h4>Structure:-</h4></header>
       <ol type="i">
         <li>Auxiliary verb থাকলে বসবে। না থাকলে, Do / Does / Did বসবে।</li>
         <li>Negative Sentence হলে not হবে না। কিন্তু, যদি Affirmative sentence হয় তাহলে- Aux verb + n't হবে।<br><b>Note: </b>not এর বদলে সর্বদা <b>n't</b> হবে।</li>
@@ -83,12 +85,12 @@
 
 
       <div class="border">
-        <header id="neg-words"><h3>Negative Words</h3></header>
-      no, not, nor, never, neither, few, little, very few, scarcely, saldom, hardly, no sooner etc.
+        <header id="neg-words"><h4 id="neg">Negative Words</h4></header>
+        <p>no, not, nor, never, neither, few, little, very few, scarcely, saldom, hardly, no sooner etc.</p>
       </div>
       
 
-      <header id="short-forms"><h3>Short Forms:-</header>
+      <header id="short-forms"><h4>Short Forms:-</header>
       <table>
         <tr><td>not</td><td>n't</td></tr>
         <tr><td>am not</td><td>ain't, aren't</td></tr>
@@ -182,7 +184,7 @@
       </ol>
 
       <footer>
-        <header id="name"><h3>By <a href="mailto:sssumve@gmail.com" id="mail">Safayet Shahriar Sumve</a></h3></header>
+        <header id="name"><h4>By <a href="mailto:sssumve@gmail.com" id="mail">Safayet Shahriar Sumve</a></h4></header>
       </footer>
     </main>
   </div>
