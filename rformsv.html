@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="icon" href="clr-logo.jpg">
+	<title>Completing Sentence</title>
+  <style>
+    body, #slogan {color:rgb(238, 238, 238);background-color: rgb(40, 44, 52);font-size: 16px;}
+    table, th, td {
+      border: 1px solid rgb(211, 208, 208);
+      border-collapse: collapse;
+    }
+    #top {margin-top: 15px;text-align: center;color:rgb(180, 184, 196);}
+    footer {background-color:rgb(40, 44, 52);}
+    #main table {min-width: auto !important;}
+    div.example {
+      margin-left: 20px;
+    }
+    #hoop {background-color: orange; color:white; padding: 8px 16px;text-decoration: none;}
+    #hoop:hover {background-color:rgb(233, 152, 2);}
+    .bnhead3 {
+      font-size: smaller;
+    }
+    #proverb li {margin-top: 5px;}
+    .rule {padding-top: 37px;}
+    @media (max-width: 700px) {
+      #navbar {
+        width: 0px;
+        
+      }
+      #main {
+        margin-left: 0px;
+      }
+    }
+  </style>
+</head>
+<body>
+	
+  <div id="prank">
+    <h1>Enter The Correct Password to Continue-</h1>
+      <input type="password" class="user-name" placeholder="Password" required id="onlyform"><br><br>
+      <button onclick="finishPrank()" id="submit-btn">Submit</button>
+  </div> 
+
+  <div id="top">
+    <img src="logo.png" alt="logo">
+    <h4>Ferdous English Aid</h4>
+    <h5>পরিচালনায়ঃ ফেরদৌস আহমেদ পারভেজ স্যার।</h5>
+    <p>মোবাইল নংঃ ০১৭৯৩-৭০৫৯৯৩; ০১৮৯১-৮৩৫১৪২</p>
+  </div>
+
+  <main class="container">
+    <h1 align="center" id="title-h">Right Forms of Verbs</h1>
+    <header class="rule"><h3>Right Forms of verbs এর ক্ষেত্রে করণীয়</h3></header>
+    <ol type="i">
+        <li>প্রবন্ধ বা গল্প</li>
+        <li>নির্দেশক word অনুযায়ী পরিবর্তন</li>
+        <li>Active বা Passive পরীক্ষা</li>
+        <li>Finite বা non-Finite পরিক্ষা।</li>
+    </ol>
+    
+    <header class="rule"><h3>Verb + ing</h3></header>
+    <ol type="i">
+        <li>Sentence এর শুরুতে verb থাকলে verb + ing</li>
+        <li>পর পর দুটি verb থাকলে পরেরটা verb + ing</li>
+        <li>Preposition এর পর verb + ing</li>
+        <li>Be verb/ get verb + use to + verb + ing</li>
+        <li>Without/ while এর পড়ে verb + ing</li>
+        <li>Possasive বা objective এর পরে verb + ing</li>
+        <li>Would you mind/ don't mind এর পরে verb + ing</li>
+        <li>Can/ could not help এর পরে verb + ing</li>
+        <li>Be verb + adverse to/ oppose to/ addicted to/ commited to + verb + ing</li>
+        <li>With a view to/ look forward to/ come forward to/ with an eye to + verb + ing</li>
+        <li>Non-finite এর ক্ষেত্রে কর্তা নিজে কাজ করলে verb + ing</li>
+    </ol>
+
+
+    <header class="rule"><h3>V<sub>1</sub> এর ব্যাবহার</h3></header>
+    <ol type="i">
+        <li>প্রবন্ধমূলক উদ্দীপক বা আলোচনা হলে, V<sub>1</sub></li>
+        <li>চিরন্তর সত্য বা অভ্যাসগত কাজ বোঝালে V<sub>1</sub></li>
+        <li>To এর পর V<sub>1</sub></li>
+        <li>In order to এর পর V<sub>1</sub></li>
+        <li>Modal এর পর V<sub>1</sub></li>
+        <li>Sub + make/ help + বেক্তিবাচক obj + verb(base form)</li>
+        <li>Used to এর পর V<sub>1</sub></li>
+        <li>Let + obj + verb এর base form</li>
+        <li>Be verb + about to/ going to/ suppose to + V<sub>1</sub></li>
+        <li>Had better/ would better/ would rather এর পর V<sub>1</sub></li>
+    </ol>
+
+
+    <header class="rule"><h3>V<sub>2</sub> এর ব্যাবহার</h3></header>
+    <ol type="i">
+        <li>গল্প, ঘটনা বা কাহিনী বোঝালে V<sub>2</sub></li>
+        <li>অতীতের সাল বোঝালে V<sub>2</sub></li>
+        <li>once, yesterday, last + time, previous + time, ago, oneday, once upon a time, long time since, it is high time, time + before ঃ- এগুলো থাকলে V<sub>2</sub></li>
+        <b>Note: </b>কর্তা নিজে কাজ না করলে এগুলো was/ were + V<sub>3</sub> হয়ে যাবে।
+        
+    </ol>
+
+
+    <header class="rule"><h3>V<sub>3</sub> এর ব্যাবহার</h3></header>
+    <ol type="i">
+        <li>Having + V<sub>3</sub></li>
+        <li>Have verb + V<sub>3</sub></li>
+        <li>To be + V<sub>3</sub></li>
+        <li>Modal + be + V<sub>3</sub></li>
+        <li>Get + V<sub>3</sub></li>
+        <li>Sub + have verb/ get verb + বস্তুবাচক obj + V<sub>3</sub></li>
+        <b>Note: </b>Non-Finite এর ক্ষেত্রে কর্তা নিজে কাজ না করলে শুধু V<sub>3</sub>
+    </ol>
+
+    <table>
+        <p>নিম্নের টেবিলে বামের গুলো অনুযায়ী ডানের গুলো বসবে।</p>
+        <tr>
+            <td>Usually, generally, normally, occasionally, daily, often, (every + time), always</td>
+            <td>V<sub>1</sub>(act)<br>am/ is/ are + V<sub>3</sub>(pass)</td>
+        </tr>
+        <tr>
+            <td>Now-a-days, now, day by day, at present, at this time, at this moment, currently, gradually</td>
+            <td>am/ is/ are + Verb + ing(act) <br>am/ is/ are + being + V<sub>3</sub>(pass)</td>
+        </tr>
+        <tr>
+            <td>Recently, lately, already, just now, yet, ever, never</td>
+            <td>have/ has(act) <br>have/ has + been(pass)</td>
+        </tr>
+        <tr>
+            <td>Following + time/ tomorrow/ next + time/ time + preceding</td>
+            <td>will + V<sub>1</sub>(act) <br>will + be + V<sub>3</sub>(act)</td>
+        </tr>
+    </table>
+
+  <footer>
+    <h5 id="slogan" class="container">#খাতা কলমের দিন শেষ,<br>&nbsp;&nbsp;ডিজিটাল বাংলাদেশ।</h5><br>
+    <a href="https://m.me/sssum19" id="hoop" target="_blank">Inform here</a>
+    <header id="name"><h3>By <a href="https://web.facebook.com/sssum19/" id="mail">Safayet Shahriar Sumve</a></h3></header>
+  </footer>
+</main>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
