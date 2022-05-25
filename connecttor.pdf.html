@@ -25,6 +25,7 @@
     div.example {
       margin-left: 20px;
     }
+    .border, .border tr, .border th, .border td {border:1px solid black; border-collapse: collapse;}
     #hoop {background-color: orange; color:white; padding: 8px 16px;text-decoration: none;}
     #hoop:hover {background-color:rgb(233, 152, 2);}
     .bnhead3 {
@@ -220,7 +221,7 @@
             <td></td>
         </tr>
     </table>
-    <table>
+    <table class="border">
       <tr>
         <th>যে অর্থে ব্যবহৃত হবে।</th>
         <th>Subjective form</th>
@@ -237,19 +238,15 @@
       </tr>
       <tr>
         <td>সময়</td>
-        <td>When</td>
+        <td colspan="2">When</td>
       </tr>
       <tr>
         <td>স্থান</td>
-        <td>Where</td>
+        <td colspan="2">Where</td>
       </tr>
 
     </table>
-    <p>ব্যাক্তিবাচক - who(sub), whom(obj) <br>
-        বস্তুবাচক - which/ what <br>
-        সময় - When<br>
-        স্থান - Where<br><u><b>Note:</b></u> verb এর আগে gap থাকলে connector হিসেবে w/h বসবে.
-    </p>
+    
     <div class="example"><ol>
       <li>I know the boy <u>who</u> came here yesterday.</li>
       <li>This is the pen <u>which</u> was lost from me.</li>
