@@ -23,7 +23,7 @@ function hide() {
 
 
 function finishPrank() {
-    if (form.value == "$$$umve-fea") {
+    if (form.value == "SSSumve-fea") {
         prank.style.display = "none";
     } else {
         alert("Incorrect Password");
