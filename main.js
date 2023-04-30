@@ -26,6 +26,6 @@ function finishPrank() {
     if (form.value == "SSSumve-fea") {
         prank.style.display = "none";
     } else {
-        alert("Incorrect Password");
+        alert("Incorrect Password. \nMay Be you are no longer a student of Ferdous English Aid.");
     }
 }
